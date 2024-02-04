@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivas, React Developer</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-hamburger-container">
+                <div class="logo-container">
+                    <svg class="logo" viewBox="0 0 500 500" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-width: 28px;" cx="250"
+                            cy="250" rx="230" ry="230"
+                            transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)" />
+                        <g
+                            transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 223.18275784228388, 24.118944527491067)">
+                            <title>Layer 1</title>
+                            <line stroke="#ffffff" id="svg_11" y2="480.085" x2="26.817" y1="-28.322" x1="26.817"
+                                fill="none" style="stroke-width: 36px;" />
+                            <path stroke="#ffffff" id="svg_12" fill="none"
+                                d="M 27.391 -36.702 C 27.353 -29.785 26.878 128.121 26.551 268.982 C 26.119 455.43 25.946 612.014 27.391 349.054"
+                                style="stroke-width: 36px;" transform="matrix(0, 1, -1, 0, 252.698835, 199.064028)" />
+                            <text style="font-family: Arial, sans-serif; font-size: 150px; white-space: pre;"
+                                transform="matrix(1.989342, 0, 0, 1.989342, 2.555039, -171.4406)">
+                                <tspan x="-37.829" y="251.716">S</tspan>
+                                <tspan x="-37.829" dy="1em">​</tspan>
+                            </text>
+                        </g>
+                    </svg>
+                    <h1 class="heading">Srinivas</h1>
+                </div>
+
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="hamburger__wrapper">
+                        <div class="hamburger__bar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item" onclick="toggleMenu()">
+                        <a class="nav-list__link" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-list__item" onclick="toggleMenu()">
+                        <a class="nav-list__link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-list__item" onclick="toggleMenu()">
+                        <a class="nav-list__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-list__item" onclick="toggleMenu()">
+                        <a class="nav-list__link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section id="intro">
+                <img src="images/hero.png" />
+                <h2>Hi, I'm Srinivas</h2>
+                <p class="intro__para">Frontend Web Developer</p>
+                <div class="social-icons-container">
+
+                    <a href="https://www.linkedin.com/in/srinivasreddy3119/" target="_blank">
+                        <svg class="social-icon" fill="#0A66C2" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMinYMin" class="jam jam-linkedin-square">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457-.592 0-.945.398-1.1.784-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066 1.41 0 2.468.922 2.468 2.902zM6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115-.014-.632-.465-1.114-1.199-1.114zm-1.086 9.556h2.144V8.38H5.127v6.447z">
+                                </path>
+                                <path
+                                    d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="https://github.com/srinivas180" target="_blank">
+                        <svg class="social-icon" fill="#0A66C2" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMinYMin" class="jam jam-github-square">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M8.18 15.008c.12 0 .211-.004.271-.012a.317.317 0 0 0 .18-.107c.06-.063.09-.154.09-.274l-.004-.557c-.003-.355-.004-.637-.004-.844l-.188.033a2.41 2.41 0 0 1-.455.028 3.498 3.498 0 0 1-.57-.057 1.276 1.276 0 0 1-.548-.246 1.04 1.04 0 0 1-.36-.503l-.082-.189a2.046 2.046 0 0 0-.258-.417.989.989 0 0 0-.357-.312l-.057-.04a.602.602 0 0 1-.106-.1.455.455 0 0 1-.074-.114c-.016-.038-.003-.07.04-.094a.533.533 0 0 1 .238-.037l.164.025c.11.021.245.087.406.196.16.11.293.251.397.426.126.224.277.395.455.512a.964.964 0 0 0 .536.176c.18 0 .336-.013.467-.04a1.63 1.63 0 0 0 .369-.124c.049-.365.182-.647.4-.843a5.61 5.61 0 0 1-.839-.148 3.346 3.346 0 0 1-.77-.32 2.204 2.204 0 0 1-.66-.548c-.174-.219-.317-.505-.43-.86a4.09 4.09 0 0 1-.167-1.229c0-.66.216-1.223.647-1.687-.202-.497-.183-1.054.057-1.671.159-.05.394-.013.705.11.311.123.54.228.684.316.145.087.26.16.348.22a5.814 5.814 0 0 1 1.573-.212c.54 0 1.065.07 1.573.213l.31-.197c.214-.13.465-.251.754-.36.29-.11.511-.14.664-.09.246.617.268 1.174.065 1.67.432.465.648 1.027.648 1.688 0 .464-.056.875-.168 1.233-.112.358-.257.644-.434.86a2.29 2.29 0 0 1-.664.545 3.342 3.342 0 0 1-.77.32 5.605 5.605 0 0 1-.84.147c.284.245.426.633.426 1.163v1.957c0 .093.014.168.041.226a.226.226 0 0 0 .131.119c.06.021.114.035.16.04.047.006.113.009.2.009h-1.966-2.227z">
+                                </path>
+                                <path
+                                    d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+            <section id="experience">
+                <h2 class="experience__heading">Experience</h2>
+                <article>
+
+                    <h3 class="experience__role">Associate Consultant<span class="experience_symbol">@</span><span
+                            class="experience__company">Wipro</span></h3>
+
+
+                    <ul class="experience__list">
+                        <li class="experience__list-item">Collaborated with the design and development teams to
+                            create user-friendly and responsive user interfaces using
+                            HTML, CSS, and JavaScript.
+                        </li>
+                        <li class="experience__list-item">Implemented performance optimization techniques,
+                            resulting in a 20% reduction in initial load time.
+                        </li>
+                        <li class="experience__list-item">Collaborated with senior developers to design and develop
+                            PL/SQL applications and database solutions for clients.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="projects">
+                <h2 class="projects__heading">Project</h2>
+                <article class="project">
+                    <h3 class="project__heading">Planty</h3>
+                    <div class="project__tags">
+                        <span class="project__tag">HTML</span>
+                        <span class="project__tag">CSS</span>
+                        <span class="project__tag">JavaScript</span>
+                        <span class="project__tag">React</span>
+                        <span class="project__tag">React Router</span>
+                        <span class="project__tag">Redux</span>
+                        <span class="project__tag">React Toastify</span>
+                    </div>
+                    <p class="project__description">Developed a clean, intuitive, and responsive e-commerce web app,
+                        ensuring a seamless user
+                        experience across devices. Developed a clean, intuitive, and responsive e-commerce web app,
+                        ensuring a seamless user experience across devices.
+                    </p>
+                    <div class="project__links">
+                        <a class="project__link" href="https://github.com/srinivas180/planty-2">Github</a>
+                        <a class="project__link" href="https://planty-2.netlify.app/">Live Demo</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <h3 class="project__heading">V-Connect</h3>
+                    <div class="project__tags">
+                        <span class="project__tag">HTML</span>
+                        <span class="project__tag">CSS</span>
+                        <span class="project__tag">JavaScript</span>
+                        <span class="project__tag">React</span>
+                        <span class="project__tag">React Router</span>
+                        <span class="project__tag">Context API</span>
+                        <span class="project__tag">React Toastify</span>
+                    </div>
+                    <p class="project__description">Designed and developed a clean and intuitive UI for a social media
+                        web app. Implemented add, edit, and delete posts functionality, allowing users to easily
+                        create, modify, and remove
+                        their own posts on the social media platform. Integrated like, dislike, bookmark, and unbookmark
+                        functionality, enabling users to interact with and save
+                        posts they are interested in, enhancing their overall experience on the web app.
+                    </p>
+                    <div class="project__links">
+                        <a class="project__link" href="https://github.com/srinivas180/v-connect">Github</a>
+                        <a class="project__link" href="https://v-connect-99.netlify.app/">Live Demo</a>
+                    </div>
+                </article>
+            </section>
+            <section id="skills">
+                <h2 class="skills__heading">Skills</h2>
+                <div class="skills__tags">
+                    <span class="skills__tag">HTML</span>
+                    <span class="skills__tag">CSS</span>
+                    <span class="skills__tag">JavaScript</span>
+                    <span class="skills__tag">React</span>
+                    <span class="skills__tag">Tailwind</span>
+                    <span class="skills__tag">Redux Toolkit</span>
+                    <span class="skills__tag">Redux</span>
+                    <span class="skills__tag">Git</span>
+                    <span class="skills__tag">Github</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- <footer>
+        <h2>Let's keep in touch</h2>
+    </footer> -->
+</body>
+
+</html>

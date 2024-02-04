@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-width: 28px;" cx="250" cy="250" rx="230" ry="230"/>
+  <g transform="matrix(1, 0, 0, 1, 223.182758, 24.118945)">
+    <title>Layer 1</title>
+    <line stroke="#ffffff" id="svg_11" y2="480.085" x2="26.817" y1="-28.322" x1="26.817" fill="none" style="stroke-width: 36px;"/>
+    <path stroke="#ffffff" id="svg_12" fill="none" d="M 27.391 -36.702 C 27.353 -29.785 26.878 128.121 26.551 268.982 C 26.119 455.43 25.946 612.014 27.391 349.054" style="transform-box: fill-box; transform-origin: 50% 50%; stroke-width: 36px;" transform="matrix(0, 1, -1, 0, -0.000027, 0.000012)"/>
+    <text style="font-family: Arial, sans-serif; font-size: 150px; white-space: pre;" transform="matrix(1.989342, 0, 0, 1.989342, 2.555039, -171.4406)"><tspan x="-37.829" y="251.716">S</tspan><tspan x="-37.829" dy="1em">​</tspan></text>
+  </g>
+</svg>
